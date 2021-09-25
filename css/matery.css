@@ -290,7 +290,7 @@ header nav .brand-span {
 }
 
 header .brand-logo .logo-img {
-    height: 45px;
+    height: 60px;
     vertical-align: middle;
     padding-bottom: 6px;
 }
@@ -324,7 +324,7 @@ header .side-nav .mobile-head .logo-name {
     font-size: 1.5rem;
 }
 
-header .side-nav .mobile-head .logo-desc {
+header .side-nav .mobile-head .x-desc {
     margin-top: -10px;
     padding-left: 10px;
     padding-bottom: 10px;
