@@ -4,9 +4,28 @@
   
     
     <entry>
-      <title>Yu-Library上线</title>
-      <link href="/2021/10/19/yu-library-shang-xian/"/>
-      <url>/2021/10/19/yu-library-shang-xian/</url>
+      <title>E-Library下线</title>
+      <link href="/2021/10/21/e-library-xia-xian/"/>
+      <url>/2021/10/21/e-library-xia-xian/</url>
+      
+        <content type="html"><![CDATA[<p>由于改了CentOS并且暂时懒得再装calibre-web，</p><p>E-Library光速下线，</p><p>再见，虽然这几天应该没有任何一个人点进去过hhhh</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客, 更新日志 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>E-Library上线</title>
+      <link href="/2021/10/19/e-library-shang-xian/"/>
+      <url>/2021/10/19/e-library-shang-xian/</url>
       
         <content type="html"><![CDATA[<p>在自家的Nas上用docker上的calibre-web搭建了线上书库。</p><p>目前已开放游客用户的阅读权限，当然咱并不觉得会有人对这个藏书量那么少、还极具个人风格的图书馆感兴趣w</p><p>大多为成系列的轻小说，还有部分严肃文学，部分作品的论调也极具矛盾——咱不希望只接收一面的知识。</p><p><del>也希望这个图书馆可以补充一下咱单薄的人设吧</del>。</p><p>Enjoy!</p>]]></content>
       
