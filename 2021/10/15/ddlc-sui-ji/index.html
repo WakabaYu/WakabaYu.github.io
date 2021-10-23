@@ -227,7 +227,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = 'b64bbbb35fbb6d9acd4f75fa5768df267bfc6373527041025d08f3bd528c913e';
+        let pwd = '';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -369,6 +369,10 @@
                                 <span class="chip bg-color">评论</span>
                             </a>
                         
+                            <a href="/tags/DDLC/">
+                                <span class="chip bg-color">DDLC</span>
+                            </a>
+                        
                     </div>
                     
                 </div>
@@ -411,16 +415,18 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>DDLC是贯穿了我与你回忆的游戏：<br>你的名字，Natsuki 夏祈来自游戏角色。<br>你给我的第一题解密的明文”<em>Every day, I imagine a future where I can be with you</em>“来自于主题歌第一句。<br>你在游戏里送给我的句子”<em>Just leaf_jk</em>“改自”<em>Just Monika</em>“,后来推特上的bio也是一样。<br>我想这个游戏对你的意义并不普通，所以我一定要去了解它。</p>
-<h2 id="初·人物"><a href="#初·人物" class="headerlink" title="初·人物"></a>初·人物</h2><p>“夏树的纸杯蛋糕”是第一个让我印象深刻的要素，Natsuki是贯穿了我们回忆的名字，纸杯蛋糕则让我反复在意，它出现在Minecraft的建筑、你的Blog和<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/av795256594/">一首搜到的歌上</a>。啊，这或许并不重要。重要的是Natsuki，我想搞懂她与你有什么联系。每次见到她，我都会联想到你www。</p>
-<p>Sayori, Monika, Yuri, 包括Natsuki都是很明显的公式化的人物塑造，我只在意什么时候显露一些端倪，会一举击溃目前的范式。</p>
-<h2 id="初·音乐"><a href="#初·音乐" class="headerlink" title="初·音乐"></a>初·音乐</h2><p>主界面的”Doki Doki Literature Club!”, 开场的”Ohayou Sayori!”都十分契合DDLC的故事范式，或许在故事告一段落后回顾，会有一些不一样的感受。</p>
-<h2 id="初·剧情"><a href="#初·剧情" class="headerlink" title="初·剧情"></a>初·剧情</h2><p>暂时还是普通的日常，从诗的部分可以感受到一些不一般：20页的词语选择缺少寻常Galgame的规律，我只能凭借自己的喜好进行选择。Sayori的诗，对于她的人物塑造似乎有些跳脱。每首诗的一些句子似乎都有所暗示，或许结合起来会揭示点什么吧。</p>
-<p>Monika的诗已经有很强烈的暗示了，结合这是个Meta Game的剧透（悲），已经能感受出些什么了。<br>Monika显然在这里已经搞懂了什么。</p>
-<h2 id="初·感受"><a href="#初·感受" class="headerlink" title="初·感受"></a>初·感受</h2><p>感谢我平时游玩一些白开水Galgame的经验，当我进行到某个进度回顾时，从剧情处感受到一些不一样，这些不一样是来源于一些元素的缺失，例如，至少会提一嘴的家庭，学校相关情况。以及精简的、直接的人物塑造，从这些我感受到了将这一切导向某个“目的”的存在，不过我并不讨厌这一点。</p>
-<p>Meta Game的类型真是让我十分期待，剧情中透露出的不普通，让我更加认真去对待它。</p>
-<h2 id="初·碎碎念"><a href="#初·碎碎念" class="headerlink" title="初·碎碎念"></a>初·碎碎念</h2><p>Natsuki真可爱真可爱真可爱真可爱真可爱真可爱真可爱真可爱真可爱真可爱真可爱真可爱真可爱真可爱真可爱真可爱，我真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢真喜欢<br><strong>↑绝对没有一语双关哦！！！</strong><br>Monika的写作建议对我非常有用w<br>Yuri胸部神奇地大了一个罩杯是真的吗<br>修罗场环节真是不错啊</p>
-
+                <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="输错密码了啦！需要检查一下哦？" data-whm="这篇文章不能被校验呢！但是可以看看解密后的内容（？">
+  <script id="hbeData" type="hbeData" data-hmacdigest="1f843ed732784e3b78bfe0d46b0ac096355afb94dc0e9cc3a879fac8438fc107">fed3a8c870e1d6c80d282f94f7fcdb609a4c148d00025e625ce8ea39063469968a856f12c3b23acea6b98cf115dc4cba5b2b0849b826bf66713afe76c689a3012bee52cfdf3791edd1de303cbce2f20b1da7307554f359bcce8a92685d5eac9a6044de495c0982ef57d98d04e4e0c5fd9b7db6efec6670332025c5cb32b50fc7fa5ee2207dc98f05f4b90e414f0475722fee5d20b9b9640cd4784b0feb50f6741922b21dfc10afd061bc407d66805358de1058baf40875a8b1964d00965045b051222c3cf5d59c8cfd7ccc71151b720e407e75334297f701212a1d4a7a63c7f31082a5113ac286de93e5af2c93b3255e8ec566a2a0be87c3615da887f3a77b2fd1f1c467e00afe5e2a1602049264bbacf853e2f178168a6f136483c8bc3549a3e9371f02ff28e015a1bc79340deb2ae34113c22c1945c93c5a6485f485e32d42730a1fa7adce3f4f98d110548beedf7e66cb6e05ab298e6e0c63a875d8ea1148f5c77bcbdd3ebf03355b85246cd063330d84f71af39832b046d725a6c52e754576a7db9d8ca034026eb51850024415235fc4bf42f07d8de3398105857a49563323659ccc3dc30415075665dbc9130626d908702b9cf7ad734cd293eddfce3f12550eff1e23dc63b0c86417e0a69fbef7fdb89e3f40e9ff5a012b6410d73f4fd58b61396e71fd4a349d89b7aa0537f58d648f99d4b13734963f6af4e042445ce34e951fe41ecd1c5ec7888ae8e2812c404196139c0a55f1928351ae2cba139ca9ecb38ed1b3f310fe670bbb8e616e57d64eaa3450a5f9ea7dd89cf8825e495827144fdf24e74e1cfd7ea5d09ca6868e84a4b68f6583f3c48f3f4de5051b8651888672825c6cc9b8b562193345aae879683b1d3830a20a0bff9b227e0c985a37a90965c5dad29f8969a5c5942d281d423ff69f688335a4e1bc18ef32c279e79c94ae41f360972b1bceb191826d95f45643bd2952561ad9172167a8e701af0ed2d87cffa5ca4cac59aa73381e67192c89ba5ad3c6178385c76331d5763bc2afd0268ba0630a050be74264d29ac3a7c75bbc4a331702779f4a4711bf0575100469f3eebf8ae66aef0924330a1aa1236c52606b2f56fbc1fc25f79d82f5e75a74f6af5f3417d35d8f6e8250d535fee46443f477d0ac8ac4dcddd73bf0358edb6831f48bebfe067386c7df260347d77d9b0309c2beee9e1f7ff7737cb8aca4cd6e263122761b6f87b834f99b5573b88fd02a120e96589e3fad4b741cd896d1fe0c2e95491d5de452507ab4fee8c0bc72e65b396cca63d0d7e20cb20d4694360a75eafb38565fde3467062965cd9e32ee3478c0a1659219310f475619984117e0c7946e9c9e6051d6e156b5b0751e4cc86dee153de14ba85b652a3808eda3976c4420357b0092fc1a5d4a98a8b9070bc23aee4345a0012a5d832b858d65e4f61f4a8d46441e818dacc7a23f1357021b99a3a7524bacdac1ce8ccc803e3b0e8795fc1219944fe8d1c5c8347bdf7e672a8f403d3f4e1ef489c1d6f05fd5b484951d78b86b46715190faf05333012ec7b86275d49248696cc69f7fc40206a761890c953c4d488cb1344ff347a780181d08ef62644070d6648cbf01750b232548515eb88c5a1815ce6902ac0a6a9ab0d9a8b75e93fdcd1626ee1eb35adde433d8c5a2c2423ff9bdd4906895234c05c2e8d5055038be708532dab809137d662a1e0fe756525b8e11e60de625f206b12147a7c08ec3298d42a8f7d0c31db7b2ecd2f4e43d9691304f2c4a8fe03a621f4797c417201b2ccb9b4f3cfcef0d61f1a0c5915c4ec16528f687cbc923dcfd7736a50283b14b7edf69aa029e90c52b0a7b11148773c88ee280d9610c23db46984e74ab955c21ed8511c97b2f0f8c5d835c55874488c909d6895aae47e3e33be4009f4f86d13464a25752dcb0ba1937c54dba2cd8a328faf6cf09fa2e7519cb0b228ae01b0b0e320f17dae549813a299ecf0ac88f819cb8d8474082e3531ded6787ef270d5eae54a8fa16fcff7c34e17bc688165c2228d5c6f8232305b318325de024fdf65bc3f86275eb4b8967db9ca91f49e77ca08b7283c77c000600f97848965113b705638ef8f6248faeb7e0896a385d70cca5e39a43ad889fe533af94ef8048b9df7a5c8b66910b15f2e6ae09c870271ea6c8ceb6e2a1782d6ea46d760b34aa12fdb668ba986495c9ee092424948879b4f64cc78262405ac063364924ab7422edb66fd0da7374b3bc8dfa647e063cbe6659c4dd24bf9b96b9b6502029dc9d319694a4e6cb8f8722b3fae36e3a6e6fdbd6f7cfde25ff5d365be038c1bf262d7e651f0bca9cfd73eda0acf93a45721cc10c02534b5e58c990516edebaec4582b69585b75313e1d5d5a92d2b05fc382e8afae090b9b810fa949158be3cbfea472fb5c8049742d0ac48f819b08a561274b6b61ee988b117ba5b117ea01d4c5014b585923fc2b076a691ec924d6551928e0da4650bdfaa8dcf009dea127996581cd874c1564e757fe3bbb00afdc31b6f3b55eccd1f456840f47ed7bbfaa1ef5f4c934a997c0e2931e9fb937dde38d79e0e685a7772839f48901355f4f3bda21dbad5ddb6a2f0b840e24bc02f392ad61c0ad9818d54ed33715405b15888aa25baf2e58222b5ad8a0668857c00370feaca7c01e5eb3209587c64f9b3bc7c3365895b34ae57eca6c9a7f1a3f341f4cf147772e065df72e855c7b89474b9490d13673b3d2767c5aba434478977e51843a8aadcd0f680c24377b9c349bc7416b8d8f5ef26edfb42d94542e90692bb83eb1940af689d1c9c69c21baad621fbe37231df179ed1460dff1b480c8e39d235f4264bb371b737f70a3a037aa42bbf69b8810042e1f5cc79b1e5bedcf5a4a72407f17a523c8e47212f7d6c187ef65ded55516e3980c02795020b9c8ef3a3b1a87deae040befbda096d96faf62d79a62b2ab06c3dd03e26c11ddfdef57a3d5a4e7ea630eed8f583a2cd99984e4e5f25cee72256ec338146499913dbeeb57c52be0bfbbbbdfb1ad240fee2312b0098619fcd4a851cec330f2c7ed541ec707bf070dfc854831c7ed66338c5fda1ccde963f4efe3dc05a0d3d14e8c5165f338bf6e6f88067f09a948040403f9a8f7304be99831dac2d122a7c1b84afeba9fd6ecf209686b80ddf7a9a4e6b5ebcc93a591dfd3636ab72bc70250615daa121c4538eebb8e3b79022d444936d9bf9e75dda16a2cfcf70c364291a4d8ae08438d7615abaf8adb052ab9e556d239bf29d0ea441b236c91ee0a9f202785613d315bdbde7428b70f0ca3e693f30558e9dd06babf0fbcf39dff55545823bcd2a28c3d538cb8aa473cb9c5edb54eb98d73a9c81b198a88e19e8d246ff4c0b082b96c34edcd57bf5b7a453f05f902464ee60031aa99aa62da57864b22957ef80b1d0833bf4ecccff473e8293e5d102048d5d47e0fc0a6f23322d5a61b5159f2e9b8ea4ce61b4dd605628660f1959e610553c0ef98686758fbd0017f610910f2cee1d15f172f97d32ffea17ff5856f185e49c1724a1f593b52351001ab5aa14aaa0f0c7abbc29e391dccfd4005130c3877fe1360353dcef3fa52000a4a6046b7282bcf20dfc2b97087dcb39d78fc955d62b748972b53adaccb7cc7c836aed7052c9218ee5c19dfe7a4d737800a13695ffab7b3b8be3fa8bd53a2077917f9f73f7c4c270bf72d40c4f29d675bab0962cef1f68468e4ca97ea8c9eab2d62c5b21731e6ba2fd6341188455cfbf7cdcfeadc615c8ead3e915f8ced57635cd3a559cf577af80e1ba58de563c59afcace0f5652df201b1774bd90384559e92a67e678c76a31685c535e9a38721e46546f44563aac2b67ea378d83a4121f5007dd5a350d122e1638bf662946e23126857fdbc4dfb3b0d40633789f9e5275526ef66f7e6e0fe9086a509fa1bec3cbab74907ee439b5561370f259eca32aff9e436bda26bcf26ab395db4a52b9f734519da1c0a23d869ab8cb683fde8f1f4b680db603c5a24a9f8fa108fdbec1341de900af8044ccf0e4dad6de8a579be5d8ecdf191e0173d776f04eaa40394e07278c7980da850b421144ebf45b3d17dc483dcbb2a67500fc4a46fb295f037942e30be97b247b7a058be82995d54f49515b7e687a804c8da535a54c204c955aefafd56b8909516d831b6021629232555eba9dc069d0644e3e01464a14fb181a524186a756cb6387b6cd9d5057b328d37eaa90f8c80ee9c00ecaea733b807316ae6816d62744487e00c4f0380d45c8733ac71a85dbe732655c842cc4fd9c15445a0003c0acab6ed638b39b42c3b8d463e136693bd6a1fffb9db1dca88a92cbaa730d6cd47710f6a720c21351c9991cbe00a412654a9bd8b7e21befccfb0193da7a6e43d39aaaab73cd0f61f7917ced46da763b884ab87489c5c2c128a65d9d24760baac967e42b4df2defccbc2f9c51b4c05628a3a8df25173030c7f9b31ba1e0489191032f039522affb9d3f497d3abcbe9672d111e4b74257c2f8ffe7ada022feabd32033d5c79ac1fefa3450a63a8a8ac6ea97e78889298d89e6f5d4f81f01d2e0d65088be5dd7f6e5631d4b90a1479fffa1dafeb1638d7d9631ec67dc7f3663b10b38e981b3f9697062b1b4bdc38f3b9435732fa5da190d786a2267b808f9f41042fac7e5d06944c3be91685890880400ee1c6d98e744ef8959c19cbdc02236b33599f424009ad88a74f76b68de653162eac0767049c962e024c39dea7f8e43a51fe3d64abc6278a428ff37d40fd093bd42c3ee2d2c7dc4fce089a02fd32f07ff3bd8ee828856dbe11152b781a0363381b7934ee86a15c2650932fb198c65755d760e562e0e2d1eac142f95fcef83de43473d3a8423d7f8968c1cbe872b6ecc344a46561a8f0dd</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这篇文章需要输入密码才能查看哦！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
                 
             </div>
             <hr/>
@@ -490,6 +496,10 @@
                             
                                 <a href="/tags/%E8%AF%84%E8%AE%BA/">
                                     <span class="chip bg-color">评论</span>
+                                </a>
+                            
+                                <a href="/tags/DDLC/">
+                                    <span class="chip bg-color">DDLC</span>
                                 </a>
                             
                         </div>
@@ -865,7 +875,7 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            这篇文章加密了哦～★。
                         
                     </div>
                     <div class="publish-info">
@@ -879,6 +889,14 @@
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Kaede/">
+                        <span class="chip bg-color">Kaede</span>
+                    </a>
+                    
                 </div>
                 
             </div>

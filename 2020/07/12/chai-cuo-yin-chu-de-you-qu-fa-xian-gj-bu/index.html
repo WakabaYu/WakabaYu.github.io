@@ -227,7 +227,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '21710deda98186137931fdd98745e7064c71c445352871d743768d7b7ddb9c98';
+        let pwd = '';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -411,17 +411,18 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><a target="_blank" rel="noopener" href="https://bgm.tv/subject/48031"><img src="https://wataame.cc/wp-content/uploads/2020/12/56sXO5DtSZfaq32PL80jdtejc23.jpg"></a></p>
-<hr>
-<p>一开始文件名导致播放列表出了问题，致使播放次序变成了： <u>ep10→ep12→ep1→ep4</u> etc.</p>
-<p>后来想想乱序反而更有趣，原顺序时有被人吐槽突兀，个人觉得氛围错位导致尴尬感，没有埋伏笔也是很大的问题，让本作直接与不对电波的人划清界限。</p>
-<p>乱序下<u>ep12</u>提早埋下伏笔，中和了氛围。<u>ep1</u>放在<u>ep12</u>后面更是绝妙，直接引入这种氛围下最棒的生涯循环元素。这种日常果然还是要无限循环更加有趣啊<img src="https://bgm.tv/img/smiles/tv/15.gif" alt="(bgm38)"></p>
-<p>而且播放器真是贴心到不行，还在<u>ep12</u>前铺了<del>ep10</del>这个介绍全员设定的集数，导致我看到乱序第四集都完全没有感觉到古怪，太自然了。</p>
-<p>乱序也有种蜜汁魅力，以后碰到这种作品还是会试着乱序观看的<img src="https://bgm.tv/img/smiles/tv/67.gif" alt="(bgm90)"></p>
-<p><img src="https://wataame.cc/wp-content/uploads/2020/12/ybi8v4lq5qfogmlzpxaa.jpg"></p>
-<hr>
-<p><a target="_blank" rel="noopener" href="https://bgm.tv/blog/297666"><img src="https://wataame.cc/wp-content/uploads/2020/12/YvWfLNAVXa4Uw7i.png"></a></p>
-
+                <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="输错密码了啦！需要检查一下哦？" data-whm="这篇文章不能被校验呢！但是可以看看解密后的内容（？">
+  <script id="hbeData" type="hbeData" data-hmacdigest="7db1d1e788f0a2ab06394d0482265e02eb716492e212c203ed313af63e1224ab">fed3a8c870e1d6c80d282f94f7fcdb6033ebf4d3d24d1ae0b1cdfad0f94e7e9c630d074041bc21501aded4774126dfc33aa9148d521cdf29d318b7dd9109806005cdfaacad162a1bafcf66f6654541f56a85dc2955bb4069d5e21d1460330e5f7201b4316c13ce1c73b6735e5453ae501c729301d428afad72ec3cb59259ed7a555ff99ec35890aac9dce8b652f389c88f37cf291bbd0cb8327781801d02d1d9b6ba3348d7fa9dff968f8dba2b0120972187ffc5340276cbb4004a0849b6a761261e4225f5b5b2d8190b404f8a2843a581f1021aa505a5058804f55954d6056732480082613c53acfb20a3e08840237bc2ba1c1af3bf7e39a4170396df44bc46f02a55e4490299a8b7c0f1f9c30a7246a53d17e440432d9d5fb11c8b04cb4b1b3769b21e8e2ad40cb1e74f6c05014d1c845ddc482ccb359986841e5136a36517af435e7dfab13d8c1976b654984f05c890c6b7e54435a9e686ad90ebb892ef34fed26498c6ea523acfb3ac9b36bab097400e17dee0f6bf3e74ecd4171ec34c096d9d78addb221e4f030aa8c5520060770a4162eaf5bbeb0f907492357901ed676464d63f8ccadd94b6dcab355c621cf514939ab85a0d3fff28c78e08e34d66602e663b69ed405229db66b744e04d5649678244daf7a22215493577403f789eae494fb896c4e9fc3f27b40ce90e8339ce1f91fd948d2545f4e775eee5e989d8b5b5c3232528bb395887ee0ff2a98be99480ad9a0968ebdfdc1cbc11863985f9c7e638c92563783be3dbb26fff86abdaca0085a5083761fc170fb2db9a231fbc5802019e310119f485f9c55781d205d6b9e3881db3ceb4637d4e84316e8db1d0517658a20676b551fd99524a1006604a26aa45ed1b955c786237a3350d71cd6529c0143b3a5af46ed263ed269d070deebab4ac53c41e863b4591de4a15d37984a51fccba6f8fac9718a68964e5dedf1147000cdcfffb12636a5384b811862faa01257977ad3956ef62c5baf8cc67157fafd0b266dd5be8a7b52e687316847cc36222d6ade8517b0a135151a304a41e81051651250f3969d406ab9a831077425eca26e557e149613b5bd85d7d41f49daab9aec61eac368b3d4eff6e2ad409a2994b4c8ae3c78d572d755e82d2cfa420e37576d7a62b12be35a8f2a9900c561fbde07f5c633a4be2b87b17a8297b0fa1801e4d4923ecbba2437c692a121e7a2b065d78006aaa319992a9cba907d510749b23d440a4b8b75e01344ceaad73781460e5e9b0f4874f9ca01d1fd174bc903f81b033827e242fa972797418dd6522252cc4ba23c840296e3379482f90dfeac0e557bf06935d0a4b140a6c68cfe4ca979419b31653582b4b50afdbfdd34030084550cee7f2b5436d80cf3121e74b27c5a74cc6d61a678e3da95f7993ac2a223a25f539137cfcc0b2a27800b36c46db82c5e6c9312746a01298516dfe6a6235ebde64aa9c30998a51c1029ea47a0c977a0dcf9442814cea0412bc501f4d474fb0d7b9b0576d00b7ec41276cda3007bc626f691c5ffe9305a77f38761429e73bf6c7b515683bc3a354633d19018ba8f910aab3d573e3f0c18eedc1dde330027f4136019b787c9d3310d872e81afb5b41bd172725f2d55be67e66e5e49a9035701d7a3f895201c886ef04bf80deca3f5c19ec2c66abf633d55077ad0ce6bc3b882dda5cae748453b7fd1a44ee0347373d4a8043da650f272e531c56103929a0f8065e53cdf30c682229e2c3281324ce62c83b1627a3a8a4928c81ede5f6111cdd57f8f4a1e96b0e7246c5c7aee0f69db68cdc04bd0095ed09e8007f96a220c145aad0ab0c12a7fd636969cd6eb8b3bd6f98a6a44d5818b7a1692805015b10ec0b588a0ef9d5db77bac3cdb54fec6d14cdded3a89e91ad2a8832d3352e30f47dc7948053</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这篇文章需要输入密码才能查看哦！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
                 
             </div>
             <hr/>
@@ -854,24 +855,24 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/07/02/shi-dian-wen-ti-tian-qi-zhi-zi/">
+                <a href="/2020/05/21/jia-dai-mei-you-ren-he-shou-wang-de-li-you-zhi-you-wo-bu-cun-zai-de-cheng-shi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/banner/4.jpg" class="responsive-img" alt="视点问题——天气之子">
+                        <img src="/medias/banner/2.jpg" class="responsive-img" alt="加代没有任何守望的理由——只有我不存在的城市">
                         
-                        <span class="card-title">视点问题——天气之子</span>
+                        <span class="card-title">加代没有任何守望的理由——只有我不存在的城市</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            天气之子
+                            只有我不存在的城市
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-21
                             </span>
                         <span class="publish-author">
                             

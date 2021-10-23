@@ -227,7 +227,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = 'a32f8aa118d2f7a26f350a3e7c5f2a4b53f0ef9110812b4886d5c8c6bed38237';
+        let pwd = '';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -359,9 +359,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Kaede/">
+                                <span class="chip bg-color">Kaede</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -394,8 +398,18 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>‌‌ ​ ‌‍‌‌ ‍‍‍ ‌‌‌‍ ‌ ​ ‍‌‍‍ ‍‍‍ ‌‌‍ ​ ‌‌‍‌ ‌‍‌ ‍‍‍ ‍‍ ​ ‍‍ ‍‌‍‍ ​ ‌‌‌‌ ‌ ‌‍ ‌‍‌ ‍ ​ ‌‌ ​ ‌‍‌‌ ‍‍‍ ‌‌‌‍ ‌ ​ ‍‌‍‍ ‍‍‍ ‌‌‍ ​ ‌‌‍‌ ‍‍‍ ‌‍‌ ‌ ‌‌‌‍ ‌ ‌‍‌ ​ ‌‍‍ ‌‌ ‍ ‌‌‌‌ ​ ‍‌‍‍ ‍‍‍ ‌‌‍</p>
-
+                <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="输错密码了啦！需要检查一下哦？" data-whm="这篇文章不能被校验呢！但是可以看看解密后的内容（？">
+  <script id="hbeData" type="hbeData" data-hmacdigest="18c7e1dd38236cc3070298ef8d0e5adfcdbbdf953518bbe4d43f5e16f5e2e3c6">1e77d5ffb065552e1d7b302d9f8c546ae32ada267fd1c3b9954f1eb13bf58e8cc3bd18f4f9ab143627c327999192abe49354a23e6cfc32f57fca06c9dc73f77ca136cabba874b3f4e7b21d501ad1540877555b98d2dc672c7c6aac424157bf984c4f878f4781ea8f8fb43f0283b8ec91857d9d65ea157fe938e67ac3d15d2754f87128a11a7afb89b29ebaeb13f5f17383f69156744817cc43de2e3fffb47f2db959ec40aafeb8a77962c0872e1eadd2515a74927a45a6620ed0956fc6602c42036a1256cbe60fa4f7d0b8052fe991b72198c629c92f9c378fd3d7db00fc105b29f00da38fbd0b399e9eb7c155cdbeb2f8290cd19f09cb1eb84c4fa2cff54666f1cbe2b8adf71700e0cdb711c7290efe9096ff6ec53900953677b0dd20172ca1696b1d8a0bcc4c5b39331f9e8753b0c1f85d6ee42c17932af2b2974feb2e6dfe4189fed36c92bebaa1f09de67790f5b463db3aeedc7aca0af3c542c5afd8aae04f9c89de2ed06643926bb0409ff30063b6d4e544dbdda5c59409a50dab442002e3dfae0747aa3aa7671bec5feecc8e286e8e7c6001ee0c680f72790f040c89c092ea01651612a63038d020b1741460798ed6b21d8240c22c9b1a5a533d7438da8935db991f9338d2c54e9d3d3f9d9e608f9e6a533b133b7d4629f3b136ec9f34</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这篇文章需要输入密码才能查看哦！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
                 
             </div>
             <hr/>
@@ -458,7 +472,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/tags/Kaede/">
+                                    <span class="chip bg-color">Kaede</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -807,6 +825,10 @@
                     
                     <a href="/tags/%E8%AF%84%E8%AE%BA/">
                         <span class="chip bg-color">评论</span>
+                    </a>
+                    
+                    <a href="/tags/DDLC/">
+                        <span class="chip bg-color">DDLC</span>
                     </a>
                     
                 </div>
