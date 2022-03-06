@@ -1,0 +1,2 @@
+    valine: {{ page.valine|safedump if page.valine else "true"  }},
+    waline: {{ page.waline|safedump if page.gitalk else "true"  }},{%- endif %}
